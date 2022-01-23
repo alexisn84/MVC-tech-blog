@@ -12,8 +12,11 @@ const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 const sess = {
     secret: 'Super secret secret',
-    cookie: {},
-    resave: false,
+    cookie: {
+        //set to time limit for session to expire and must log back in
+        expires: 10 * 60 * 1000
+    },
+    resave: true,
     saveUninitialized: true,
     store: new SequelizeStore({
         db:sequelize
@@ -32,7 +35,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
-//app.use(require('./controllers/'));
+app.use(require('./controllers/'));
 
 sequelize.sync({ force: false }).then(() => {
     app.listen(PORT, () => console.log('Now listening'));
