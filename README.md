@@ -18,7 +18,8 @@
 - [Description](#description)
 - [NPM Packages](#npm-packages)
 - [Installation](#installation)
-- [Application Video](#application-video)
+- [Application Images](#application-images)
+- [Application Links](#application-links)
 - [Credits](#credits)
 - [Contribution](#contribution)
 - [Testing](#testing)
@@ -33,12 +34,20 @@
 - [MySQL2](https://www.npmjs.com/package/mysql2)
 - [Sequelize](https://www.npmjs.com/package/sequelize)
 - [dotenv](https://www.npmjs.com/package/dotenv)
+- [bcrypt](https://www.npmjs.com/package/bcrypt)
+- [express-handlebars](https://www.npmjs.com/package/express-handlebars)
+- [express-session](https://www.npmjs.com/package/express-session)
+- [connect-session-sequelize](https://www.npmjs.com/package/connect-session-sequelize)
 
 ## Installation
+*Local Installation ONLY*
 The user will need to clone the repository onto their system, and then ensure the NPM packages listed above are installed. Please see each package's link for documentation and installation directions/code. Once completed, the user should run MySQL to use `source db/schema.sql` to populate the test info previously programmed. After exiting, the user will need to run `npm run seeds`; then run `npm start`; 
 
-## Application Video
-For a video demonstrating the application please click [Watch Video](https://drive.google.com/file/d/1RIQcof2ubuGr9Qv4oYMenLwcMp75Yv7x/view)
+## Application Images
+
+
+## Application Link
+Click [HERE](https://quiet-peak-81471.herokuapp.com/)
 
 ## Contribution
 Currently not accepting contributions at this time.
