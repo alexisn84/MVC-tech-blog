@@ -44,6 +44,11 @@
 The user will need to clone the repository onto their system, and then ensure the NPM packages listed above are installed. Please see each package's link for documentation and installation directions/code. Once completed, the user should run MySQL to use `source db/schema.sql` to populate the test info previously programmed. After exiting, the user will need to run `npm run seeds`; then run `npm start`; 
 
 ## Application Images
+<img src="https://github.com/alexisn84/MVC-tech-blog/blob/main/assets/homepage.png">
+<img src="https://github.com/alexisn84/MVC-tech-blog/blob/main/assets/Login.signup.png">
+<img src="https://github.com/alexisn84/MVC-tech-blog/blob/main/assets/dashboard.png">
+<img src="https://github.com/alexisn84/MVC-tech-blog/blob/main/assets/edit%20post.png">
+<img src="https://github.com/alexisn84/MVC-tech-blog/blob/main/assets/comment.png">
 
 
 ## Application Link
